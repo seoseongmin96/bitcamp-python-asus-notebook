@@ -191,6 +191,7 @@ class TitanicModel(object):
         this.test['Fare'] = this.test['Fare'].fillna(1)
         this.train['FareBand'] = pd.qcut(this.train['Fare'], 4)
         # print(f'qcut 으로 bins 값 설정 {this.train["FareBand"].head()}')
+        ######
         bins = [-1, 8, 15, 31, np.inf]
         fare_mapping = {1,2,3,4}
         for these in [this.train, this.test]:
