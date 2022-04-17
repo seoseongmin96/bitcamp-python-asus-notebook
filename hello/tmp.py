@@ -29,3 +29,5 @@ if __name__ == '__main__':
     print(f'오일잔량 {car.oil}')
     car.spend_oil(-100)
     print(f'오일잔량 {car.oil}')
+
+#d df dfaf df adf adf adf adf adf adf adf adf adsfsdfqfq d dfa

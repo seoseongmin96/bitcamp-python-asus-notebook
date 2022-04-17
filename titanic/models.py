@@ -210,3 +210,5 @@ class TitanicModel(object):
         score = cross_val_score(RandomForestClassifier(), this.train, this.label,
                                 cv= k_fold, n_jobs=1, scoring= 'accuracy')
         return round(np.mean(score)*100, 2)
+
+
